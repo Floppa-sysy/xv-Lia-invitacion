@@ -53,7 +53,6 @@ linear-gradient(
 );
 
 
-
 font-family:Arial,sans-serif;
 
 color:white;
@@ -68,6 +67,35 @@ position:relative;
 }
 
 
+
+/* ===================================
+CAPA PNG DISCO
+=================================== */
+
+
+.disco-background{
+
+position:absolute;
+
+top:0;
+left:0;
+
+width:100%;
+height:100%;
+
+background-image:url("../img/lia5.png");
+
+background-repeat:repeat-y;
+
+background-position:center top;
+
+background-size:100% auto;
+
+pointer-events:none;
+
+z-index:0;
+
+}
 
 
 
@@ -296,6 +324,9 @@ background:var(--purple-light);
 }
 
 
+
+
+
 /* ===================================
 BOTON MUSICA
 =================================== */
@@ -307,7 +338,7 @@ BOTON MUSICA
 position:fixed;
 
 
-bottom:30px;
+bottom:20px;
 
 
 right:20px;
@@ -539,13 +570,16 @@ transparent
 );
 
 
+
 box-shadow:
 
 
 0 0 20px #8f4bd9;
 
 
+
 }
+
 
 
 /* ===================================
@@ -622,7 +656,10 @@ font-weight:bold;
 display:block;
 
 
+
 }
+
+
 
 
 /* ===================================
@@ -677,6 +714,9 @@ margin:auto;
 }
 
 
+
+
+
 /* ===================================
 BOTONES
 =================================== */
@@ -712,6 +752,8 @@ margin-top:20px;
 
 }
 
+
+
 /* ===================================
 CIERRE
 =================================== */
@@ -722,7 +764,11 @@ CIERRE
 
 padding-bottom:120px;
 
+
+
 }
+
+
 
 
 /* ===================================
@@ -806,7 +852,9 @@ height:280px;
 
     inset:0;
 
-    background-image:url("../img/lia5.png");
+    background-image:url("../img/lia7.png");
+
+    background-repeat:repeat-y;
 
     background-position:center top;
 
